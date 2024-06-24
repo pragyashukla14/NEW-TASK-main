@@ -43,8 +43,9 @@
   }
 
   .dropdown-container {
-    display: flex;
+
     align-items: center;
+    list-style: none;
   }
 
     .links {
@@ -53,18 +54,24 @@
         display: flex;
         color: rgb(77, 186, 114);
         list-style: none;
-        margin: 30px;
-
-        
+        right: 50px;
+        position: absolute;
+        top: 25px;
     }
 
 .link2 {
     margin: 30px;
 }
 
+.link3
+{
+    
+    color: #55e0a3;
+    list-style: none;
+}
+
     .dropdown-content{
         margin: 1rem;
-        color: rgb(45, 245, 45);
         list-style: none;              
     }
 
@@ -75,22 +82,14 @@
     .hamburger {
         display: none;
     }
-    
- 
-
     .notification-number {
-       
         color: rgb(14, 13, 13);
         font-size: 20px;
       }
-
-
       .account-number {
-   
          color: rgb(14, 13, 13);
          font-size: 20px;
       }
-
     .box {
         width: 500px;
         height: 245px;
@@ -98,7 +97,6 @@
         border-radius: 3px;
         background-color: rgb(255, 255, 255);
     }
-
     .flexbox {
         display: flex;
         height: 200px;
@@ -119,9 +117,7 @@
     padding: 10px;
     justify-content: space-evenly;
     list-style: none;
-
 }
-
 .m1 {
     margin-top: 30px;
     font-weight: bold;
@@ -134,7 +130,6 @@
     font-weight: bold;
 
 }
-
 
 .e1 {
     margin-right: 10px;
@@ -150,7 +145,6 @@
     font-weight: normal;
 }
 
-
 .green {
     color: green;
     padding-left: 3px;
@@ -163,14 +157,6 @@
     margin-right: 10px;
 }
 
-.dropdown {
-    width: 90%;
-    height: 30px;
-    border: none;
-    border-bottom: 1px solid rgb(0, 0, 0);
-    text-align: left;
-    font-size: 17px;
-}
 
 .cards {
     display: flex;
