@@ -46,24 +46,31 @@
     display: flex;
     align-items: center;
   }
-  
 
     .links {
         justify-content: right;
         align-items: right;
         display: flex;
-        color: rgb(0, 0, 0);
+        color: rgb(77, 186, 114);
+        list-style: none;
+        margin: 30px;
+
+        
     }
 
+.link2 {
+    margin: 30px;
+}
 
-
-    .links li{
+    .dropdown-content{
         margin: 1rem;
         color: rgb(45, 245, 45);
         list-style: none;              
     }
 
-
+    .dropdown-content a{
+        margin: 30px;
+    }
 
     .hamburger {
         display: none;
@@ -111,6 +118,7 @@
     display: flex;
     padding: 10px;
     justify-content: space-evenly;
+    list-style: none;
 
 }
 
