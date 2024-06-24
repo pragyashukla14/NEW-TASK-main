@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dashboard.css">
+   
+</head>
+<body>
+    <div class="mainlogo">
+        <img src="header logo.PNG" alt="Quantum Logo">
+    </div>
+    
+    <div class="links">
+      
+
+        <div class="dropdown-content" id="dropdownContent">
+            <a href="#" class="link3">DASHBOARD</a>
+            <a href="#" class="link3">CONTENT</a>
+            <a href="#" class="link3">USERS</a>
+            <a href="#" class="link3">REPORTS</a>
+            <a href="#" class="link3">ADMIN</a>
+        </div>
+        <li>
+            <button class="link2" id="alertButton">
+                <img src="alerts.svg" alt="alerts" class="header-icon">
+                <span class="notification-number">3</span>
+            </button>
+        </li>
+      <li>
+        <button class="link2" id="announcementButton">
+        <img src="alerts.svg" width="30" height="30" alt="alerts">
+        <span class="notification-number">1</span>
+    </a>
+      </li>
+      <li>
+        <button class="link2" id="accountButton">
+        <img src="account_circle.svg" width="30" height="30" alt="account_circle">
+        <span class="account-number">T</span>
+    </a>
+      </li>
+     
+    <div class="menu-icon" onclick="toggleDropdown()">
+        <a href="#" >
+            <img src="hamburger-menu.svg" alt="menu">
+        </a>
+    </div>
+    
+    </div>
+
+    <br>
+    <br>
+
+    <div class="SubHeading">
+        <a href="" class="subheader-link active" id="courses-link">
+            <img src="courses.svg" alt="courses" class="subheader-icon">
+            <p>4 Courses</p>
+        </a>
+        <a href="" class="subheader-link" id="classes-link">
+            <img src="classes.svg" alt="classes" class="subheader-icon">
+            <p>4 Classes</p>
+        </a>
+    </div>
+
+    <div class="container">
+        <p class="left-text">Showing 4 of 4 courses</p>
+        <div class="dropdown-container">
+            <label for="sort-options">Sort by: </label>
+            <div class="dropdown">
+                <select id="sort-options" name="sort-options">
+                    <option value="course-name">Course Name</option>
+                    <option value="date">Date</option>
+                </select>
+                <img src="sort.svg" alt="up arrow" class="arrow-icon">
+            </div>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="box">
+            <div class="flexbox">
+                <img src="imageMask-1.png" alt="" class="cover">
+                <div class="info">
+                    <div class="m1">Acceleration</div>
+                    <div class="m2">
+                        <div class="e1">
+                            Physics
+                        </div>
+                        <div class="e2">
+                            Grade 7
+                            <div class="green">+2</div>
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <div class="e3">
+                            <strong>4</strong>
+                            Units
+                        </div>
+                        <div class="e3">
+                            <strong>18</strong>
+                            Lessons
+                        </div>
+                        <div class="e3">
+                            <strong>24</strong>
+                            Topics
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <select name="drop" id="drop" class="dropdown">
+                            <option value="option">Mr. Frank's Class B</option>
+                        </select>
+                    </div>
+                    <div class="m2">
+                        <div class="e1">
+                            50 Students
+                        </div>
+                        <div class="e2">
+                            21-Jan-2020 - 21-Aug-2020
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="icons">
+                <div>
+                    <img src="preview.svg" alt="">
+                </div>
+                <div>
+                    <img src="manage course.svg" alt="">
+                </div>
+                <div>
+                    <img src="grade submissions.svg" alt="">
+                </div>
+                <div>
+                    <img src="reports.svg" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="flexbox">
+                <img src="imageMask-2.png" alt="" class="cover">
+                <div class="info">
+                    <div class="m1">Acceleration</div>
+                    <div class="m2">
+                        <div class="e1">
+                            Physics
+                        </div>
+                        <div class="e2">
+                            Grade 7
+                            <div class="green">+2</div>
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <div class="e3">
+                            <strong>4</strong>
+                            Units
+                        </div>
+                        <div class="e3">
+                            <strong>18</strong>
+                            Lessons
+                        </div>
+                        <div class="e3">
+                            <strong>24</strong>
+                            Topics
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <select name="drop" id="drop" class="dropdown">
+                            <option value="option">Mr. Frank's Class B</option>
+                        </select>
+                    </div>
+                    <div class="m2">
+                        <div class="e1">
+                            50 Students
+                        </div>
+                        <div class="e2">
+                            21-Jan-2020 - 21-Aug-2020
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="icons">
+                <div>
+                    <img src="preview.svg" alt="">
+                </div>
+                <div>
+                    <img src="manage course.svg" alt="">
+                </div>
+                <div>
+                    <img src="grade submissions.svg" alt="">
+                </div>
+                <div>
+                    <img src="reports.svg" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="flexbox">
+                <img src="imageMask-3.png" alt="" class="cover">
+                <div class="info">
+                    <div class="m1">Acceleration</div>
+                    <div class="m2">
+                        <div class="e1">
+                            Physics
+                        </div>
+                        <div class="e2">
+                            Grade 7
+                            <div class="green">+2</div>
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <div class="e3">
+                            <strong>4</strong>
+                            Units
+                        </div>
+                        <div class="e3">
+                            <strong>18</strong>
+                            Lessons
+                        </div>
+                        <div class="e3">
+                            <strong>24</strong>
+                            Topics
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <select name="drop" id="drop" class="dropdown">
+                            <option value="option">Mr. Frank's Class B</option>
+                        </select>
+                    </div>
+                    <div class="m2">
+                        <div class="e1">
+                            50 Students
+                        </div>
+                        <div class="e2">
+                            21-Jan-2020 - 21-Aug-2020
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="icons">
+                <div>
+                    <img src="preview.svg" alt="preview">
+                </div>
+                <div>
+                    <img src="manage course.svg" alt="manage">
+                </div>
+                <div>
+                    <img src="grade submissions.svg" alt="grade">
+                </div>
+                <div>
+                    <img src="reports.svg" alt="reports">
+                </div>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="flexbox">
+                <img src="imageMask-1.png" alt="" class="cover">
+                <div class="info">
+                    <div class="m1">Acceleration</div>
+                    <div class="m2">
+                        <div class="e1">
+                            Physics
+                        </div>
+                        <div class="e2">
+                            Grade 7
+                            <div class="green">+2</div>
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <div class="e3">
+                            <strong>4</strong>
+                            Units
+                        </div>
+                        <div class="e3">
+                            <strong>18</strong>
+                            Lessons
+                        </div>
+                        <div class="e3">
+                            <strong>24</strong>
+                            Topics
+                        </div>
+                    </div>
+                    <div class="m2">
+                        <select name="drop" id="drop" class="dropdown">
+                            <option value="option">Mr. Frank's Class B</option>
+                        </select>
+                    </div>
+                    <div class="m2">
+                        <div class="e1">
+                            50 Students
+                        </div>
+                        <div class="e2">
+                            21-Jan-2020 - 21-Aug-2020
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="icons">
+                <div>
+                    <img src="preview.svg" alt="preview">
+                </div>
+                <div>
+                    <img src="manage course.svg" alt="manage">
+                </div>
+                <div>
+                    <img src="grade submissions.svg" alt="submissions">
+                </div>
+                <div>
+                    <img src="reports.svg" alt="reports">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="footer.PNG" alt="Footer Logo">
+            <p>Copyright &copy; | 2020-2021 <b>Zeus Systems Pvt. Ltd.</b> All rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
